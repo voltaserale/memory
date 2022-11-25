@@ -53,10 +53,7 @@ public class Main {
 				campo[r1][c1]=-campo[r1][c1];
 			} else 
 				indovinati+=2;	//indovinati=indovinati+2
-			//stampo
-			stampaCampo(campo, lettere);
-			System.out.println("Premi Enter per continuare...");
-			s.nextLine();
+			
 		} while(indovinati<16);
 		System.out.println("Complimenti!");
 		s.nextLine();
